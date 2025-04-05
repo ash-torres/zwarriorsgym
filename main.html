@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Warriors Gym - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Logo Fade Effect on Reload -->
+    <div id="logo-overlay">
+        <img src= "assets/logobg.png" alt="Z Warriors Gym Logo" class="fade-logo">
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" style="display: none;">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">Z Warriors Gym</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="methods.html">Methods</a></li>
+                <li><a href="programmes.html">Programmes</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="merch.html">Merch</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+
+        <!-- Home Section with Image Slider -->
+        <section id="home" class="color-block deep-blue">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide"><img src= "https://i.pinimg.com/736x/80/37/22/803722e97b803f5d5f53e101d45bf2d5.jpg" alt="Gym Image 1"></div>
+                    <div class="slide"><img src= "https://static.vecteezy.com/system/resources/previews/037/228/850/non_2x/ai-generated-exercise-machines-in-a-gym-free-photo.jpg" alt="Gym Image 2"></div>
+                    <div class="slide"><img src= "https://plus.unsplash.com/premium_photo-1661301057249-bd008eebd06a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3ltfGVufDB8fDB8fHww" alt="Gym Image 3"></div>
+                </div>
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            </div>
+            <h1>Unleash Your Inner Warrior</h1>
+            <p>Join Z Warriors Gym and transform your body and mind.</p>
+        </section>
+
+        <!-- Location Section with Map -->
+        <section class="color-block champagne">
+            <h2>Visit Us in Cayo District, Belize</h2>
+            <p>We’re located at 123 Dragon Road, Cayo District, Belize. Come train with us!</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.406075614614!2d-88.779167685081!3d17.251847988075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5c5b5f5b5f5b5f%3A0x5b5f5b5f5b5f5b5f!2sCayo%20District%2C%20Belize!5e0!3m2!1sen!2sus!4v1698771234567!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="color-block black">
+            <p>© 2025 Z Warriors Gym. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/zwarriorsgym" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/zwarriorsgym" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/zwarriorsgym" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
